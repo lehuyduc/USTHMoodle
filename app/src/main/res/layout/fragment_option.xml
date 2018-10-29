@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".optionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Image of the Home page -->
+
+
+        <LinearLayout
+            android:id="@+id/ll_7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/linear_layout_height"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_profile"
+                android:layout_width="@dimen/image_wh"
+                android:layout_height="@dimen/image_wh"
+                android:layout_marginStart="@dimen/image_margin"
+                android:src="@drawable/profile" />
+
+            <TextView
+                android:id="@+id/text_7"
+                android:layout_width="249dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/image_margin"
+                android:layout_marginRight="@dimen/image_margin"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/text_size"
+                android:text="Profile" />
+
+            <ImageView
+                android:id="@+id/image_right_arrow_8"
+                android:layout_width="@dimen/image_wh_very_small"
+                android:layout_height="@dimen/image_wh_very_small"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/image_margin"
+                android:src="@drawable/right_arrow" />
+        </LinearLayout>
+        <!-- Course Categories -->
+        <LinearLayout
+            android:id="@+id/ll_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/linear_layout_height"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_folder"
+                android:layout_width="@dimen/image_wh"
+                android:layout_height="@dimen/image_wh"
+                android:layout_marginStart="@dimen/image_margin"
+                android:src="@drawable/graph" />
+
+            <TextView
+                android:id="@+id/text_1"
+                android:layout_width="249dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/image_margin"
+                android:layout_marginRight="@dimen/image_margin"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/text_size"
+                android:text="Grades" />
+
+            <ImageView
+                android:id="@+id/image_right_arrow_1"
+                android:layout_width="@dimen/image_wh_very_small"
+                android:layout_height="@dimen/image_wh_very_small"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/image_margin"
+                android:src="@drawable/right_arrow" />
+        </LinearLayout>
+
+        <!-- My Courses -->
+        <LinearLayout
+            android:id="@+id/ll_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/linear_layout_height"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_cap"
+                android:layout_width="@dimen/image_wh"
+                android:layout_height="@dimen/image_wh"
+                android:layout_marginStart="@dimen/image_margin"
+                android:src="@drawable/folder2" />
+
+            <TextView
+                android:id="@+id/text_2"
+                android:layout_width="249dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/image_margin"
+                android:layout_marginRight="@dimen/image_margin"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:text="My files" />
+
+            <ImageView
+                android:id="@+id/image_right_arrow_2"
+                android:layout_width="@dimen/image_wh_very_small"
+                android:layout_height="@dimen/image_wh_very_small"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/image_margin"
+                android:src="@drawable/right_arrow" />
+        </LinearLayout>
+
+        <!-- Site news -->
+        <LinearLayout
+            android:id="@+id/ll_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/linear_layout_height"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/image_wh"
+                android:layout_height="@dimen/image_wh"
+                android:layout_marginStart="@dimen/image_margin"
+                android:src="@drawable/website" />
+
+            <TextView
+                android:id="@+id/text_3"
+                android:layout_width="249dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/image_margin"
+                android:layout_marginRight="@dimen/image_margin"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/text_size"
+                android:text="Website" />
+
+            <ImageView
+                android:id="@+id/image_right_arrow_3"
+                android:layout_width="@dimen/image_wh_very_small"
+                android:layout_height="@dimen/image_wh_very_small"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/image_margin"
+                android:src="@drawable/right_arrow" />
+        </LinearLayout>
+
+        <!-- Lecturer Guide -->
+        <LinearLayout
+            android:id="@+id/ll_4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/linear_layout_height"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/image_wh"
+                android:layout_height="@dimen/image_wh"
+                android:layout_marginStart="@dimen/image_margin"
+                android:src="@drawable/help" />
+
+            <TextView
+                android:id="@+id/text_4"
+                android:layout_width="249dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/image_margin"
+                android:layout_marginRight="@dimen/image_margin"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/text_size"
+                android:text="Help" />
+
+            <ImageView
+                android:id="@+id/image_right_arrow_4"
+                android:layout_width="@dimen/image_wh_very_small"
+                android:layout_height="@dimen/image_wh_very_small"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/image_margin"
+                android:src="@drawable/right_arrow" />
+        </LinearLayout>
+
+        <!-- Student Guide -->
+        <LinearLayout
+            android:id="@+id/ll_5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/linear_layout_height"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/image_wh"
+                android:layout_height="@dimen/image_wh"
+                android:layout_marginStart="@dimen/image_margin"
+                android:src="@drawable/setting" />
+
+            <TextView
+                android:id="@+id/text_5"
+                android:layout_width="249dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/image_margin"
+                android:layout_marginRight="@dimen/image_margin"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/text_size"
+                android:text="App settings" />
+
+            <ImageView
+                android:id="@+id/image_right_arrow_5"
+                android:layout_width="@dimen/image_wh_very_small"
+                android:layout_height="@dimen/image_wh_very_small"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/image_margin"
+                android:src="@drawable/right_arrow" />
+        </LinearLayout>
+
+        <!-- Assistant Guide -->
+        <LinearLayout
+            android:id="@+id/ll_6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/linear_layout_height"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/image_wh"
+                android:layout_height="@dimen/image_wh"
+                android:layout_marginStart="@dimen/image_margin"
+                android:src="@drawable/change" />
+
+            <TextView
+                android:id="@+id/text_6"
+                android:layout_width="249dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/image_margin"
+                android:layout_marginRight="@dimen/image_margin"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/text_size"
+                android:text="Change site" />
+
+            <ImageView
+                android:id="@+id/image_right_arrow_6"
+                android:layout_width="@dimen/image_wh_very_small"
+                android:layout_height="@dimen/image_wh_very_small"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/image_margin"
+                android:src="@drawable/right_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    </LinearLayout>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".HomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Image of the Home page -->
+            <ImageView
+                android:id="@+id/image_USTH"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="@dimen/image_margin"
+                android:layout_marginStart="@dimen/image_margin"
+                android:layout_marginTop="@dimen/image_margin"
+                android:layout_marginEnd="@dimen/image_margin"
+                android:layout_marginBottom="@dimen/image_margin"
+                android:src="@drawable/usth" />
+
+            <!-- Course Categories -->
+            <LinearLayout
+                android:id="@+id/ll_1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/linear_layout_height"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_folder"
+                    android:layout_width="@dimen/image_wh"
+                    android:layout_height="@dimen/image_wh"
+                    android:layout_marginStart="@dimen/image_margin"
+                    android:src="@drawable/folder" />
+
+                <TextView
+                    android:id="@+id/text_1"
+                    android:layout_width="@dimen/text_width"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/image_margin"
+                    android:layout_marginRight="@dimen/image_margin"
+                    android:gravity="center_vertical"
+                    android:text="@string/course_categories"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:id="@+id/image_right_arrow_1"
+                    android:layout_width="@dimen/image_wh_very_small"
+                    android:layout_height="@dimen/image_wh_very_small"
+                    android:layout_marginLeft="@dimen/image_margin"
+                    android:layout_gravity="center"
+                    android:src="@drawable/right_arrow" />
+            </LinearLayout>
+
+            <!-- My Courses -->
+            <LinearLayout
+                android:id="@+id/ll_2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/linear_layout_height"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_cap"
+                    android:layout_width="@dimen/image_wh"
+                    android:layout_height="@dimen/image_wh"
+                    android:layout_marginStart="@dimen/image_margin"
+                    android:src="@drawable/cap" />
+
+                <TextView
+                    android:id="@+id/text_2"
+                    android:layout_width="@dimen/text_width"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/image_margin"
+                    android:layout_marginRight="@dimen/image_margin"
+                    android:gravity="center_vertical"
+                    android:text="@string/course_my_courses"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/image_right_arrow_2"
+                    android:layout_width="@dimen/image_wh_very_small"
+                    android:layout_height="@dimen/image_wh_very_small"
+                    android:layout_marginLeft="@dimen/image_margin"
+                    android:layout_gravity="center"
+                    android:src="@drawable/right_arrow" />
+            </LinearLayout>
+
+            <!-- Site news -->
+            <LinearLayout
+                android:id="@+id/ll_3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/linear_layout_height"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/image_wh"
+                    android:layout_height="@dimen/image_wh"
+                    android:layout_marginStart="@dimen/image_margin"
+                    android:src="@drawable/news" />
+
+                <TextView
+                    android:id="@+id/text_3"
+                    android:layout_width="@dimen/text_width"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/image_margin"
+                    android:layout_marginRight="@dimen/image_margin"
+                    android:gravity="center_vertical"
+                    android:text="@string/course_site_news"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:id="@+id/image_right_arrow_3"
+                    android:layout_width="@dimen/image_wh_very_small"
+                    android:layout_height="@dimen/image_wh_very_small"
+                    android:layout_marginLeft="@dimen/image_margin"
+                    android:layout_gravity="center"
+                    android:src="@drawable/right_arrow" />
+            </LinearLayout>
+
+            <!-- Lecturer Guide -->
+            <LinearLayout
+                android:id="@+id/ll_4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/linear_layout_height"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/image_wh"
+                    android:layout_height="@dimen/image_wh"
+                    android:layout_marginStart="@dimen/image_margin"
+                    android:src="@drawable/pdf" />
+
+                <TextView
+                    android:id="@+id/text_4"
+                    android:layout_width="@dimen/text_width"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/image_margin"
+                    android:layout_marginRight="@dimen/image_margin"
+                    android:gravity="center_vertical"
+                    android:text="@string/course_lecturer_guide"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:id="@+id/image_download_1"
+                    android:layout_width="@dimen/image_wh_small"
+                    android:layout_height="@dimen/image_wh_small"
+                    android:layout_gravity="center"
+                    android:src="@drawable/download" />
+            </LinearLayout>
+
+            <!-- Student Guide -->
+            <LinearLayout
+                android:id="@+id/ll_5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/linear_layout_height"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/image_wh"
+                    android:layout_height="@dimen/image_wh"
+                    android:layout_marginStart="@dimen/image_margin"
+                    android:src="@drawable/pdf" />
+
+                <TextView
+                    android:id="@+id/text_5"
+                    android:layout_width="@dimen/text_width"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/image_margin"
+                    android:layout_marginRight="@dimen/image_margin"
+                    android:gravity="center_vertical"
+                    android:text="@string/course_student_guide"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:id="@+id/image_download_2"
+                    android:layout_width="@dimen/image_wh_small"
+                    android:layout_height="@dimen/image_wh_small"
+                    android:layout_gravity="center"
+                    android:src="@drawable/download" />
+            </LinearLayout>
+
+            <!-- Assistant Guide -->
+            <LinearLayout
+                android:id="@+id/ll_6"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/linear_layout_height"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/image_wh"
+                    android:layout_height="@dimen/image_wh"
+                    android:layout_marginStart="@dimen/image_margin"
+                    android:src="@drawable/pdf" />
+
+                <TextView
+                    android:id="@+id/text_6"
+                    android:layout_width="@dimen/text_width"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/image_margin"
+                    android:layout_marginRight="@dimen/image_margin"
+                    android:gravity="center_vertical"
+                    android:text="@string/course_assistant_guide"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:id="@+id/image_download_3"
+                    android:layout_width="@dimen/image_wh_small"
+                    android:layout_height="@dimen/image_wh_small"
+                    android:layout_gravity="center"
+                    android:src="@drawable/download" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
